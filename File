@@ -1,0 +1,7 @@
+CREATE TABLE `kejadian gempa bumi`.
+`kejadian gempa bumi` 
+(`Lokasi Gempa Bumi` CHAR(12 km) NOT NULL , 
+`Deksripsi` TEXT NOT NULL ,
+ `Kedalaman` SET(9) NOT NULL , 
+ `Magnitude` DECIMAL(4.3) NOT NULL , 
+ `Waktu Kejadian` TIMESTAMP(2023-10-29) NOT NULL ) ENGINE = InnoDB; 
